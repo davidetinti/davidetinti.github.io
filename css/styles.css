@@ -160,8 +160,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-color: black;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("../assets/img/london.jpg");
+  background-color: rgb(211, 25, 25);
+  background: linear-gradient(rgba(2, 241, 22, 0.9), rgba(0, 0, 0, 0.1)), url("../assets/img/london.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left center;
