@@ -161,7 +161,7 @@ header.masthead {
   text-align: center;
   color: white;
   background-color: rgb(211, 25, 25);
-  background: linear-gradient(rgba(2, 241, 22, 0.9), rgba(0, 0, 0, 0.1)), url("../assets/img/london.jpg") center center fixed;
+  background: linear-gradient(rgba(231, 235, 3, 0.9), rgba(0, 0, 0, 0.1)), url("../assets/img/paolini.jpg") center center fixed;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
