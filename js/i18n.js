@@ -41,7 +41,6 @@ const locales = {
     about2: "I hold a Bachelor's degree in Computer Science from the University of Bologna and have over 4 years of experience in FullStack and Mobile development, as well as in the Internet of Things sector, particularly the Web of Things. My skills include software architecture and database design.",
     about3: "I am passionate about project management in the IT field, from feasibility studies to innovative problem-solving using emerging technologies and communication protocols.",
     about4: "Besides that, I enjoy learning and experimenting with new languages and frameworks, often switching my focus every month to keep things interesting.",
-    about5: "PS. I took the background photo with my camera during a trip to England.",
     skills: {
         subtitle: "Below are some of my skills.",
         summary1: "Programming/Languages:",
@@ -156,7 +155,6 @@ const locales = {
     about2: "Ho conseguito la laurea triennale in Informatica presso l'Università di Bologna e ho più di 4 anni di esperienza nello sviluppo FullStack e Mobile, nonché nel settore dell'Internet of Things, in particolare nel Web of Things. Le mie competenze includono la progettazione di architetture di software e database.",
     about3: "Mi appassiona la gestione e pianificazione di progetti nel campo dell'informatica, dagli studi di fattibilità alla risoluzione di problemi utilizzando metodi innovativi tramite tecnologie emergenti e protocolli di comunicazione.",
     about4: "Oltre a questo, mi piace imparare e sperimentare con nuovi linguaggi e framework, spesso cambiando il mio focus ogni mese per mantenere le cose interessanti e non annoiarmi.",
-    about5: "PS. Ho scattato la foto di sfondo con la mia fotocamera durante un viaggio in Inghilterra.",
     skills: {
         subtitle: "Di seguito sono elencate alcune delle mie competenze.",
         summary1: "Programmazione/Linguaggi:",
