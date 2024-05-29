@@ -45,49 +45,43 @@ const locales = {
         subtitle: "Below are some of my skills.",
         summary1: "Programming/Languages:",
         summary2: "Tools/Topics:",
-        spring: "I have extensive knowledge of the Spring framework, having used it for over <b>2 years</b> for the backend of a major project, along with the Spring Tools suite for Eclipse. I have placed particular emphasis on entity management and interaction through JPA queries, as well as asynchronous operations, transactions, and various types of services.",
-        java: "I have over <b>6 years</b> of software development experience in Java, creating games, plugins, and various other applications, including a <a data-toggle='modal' href='#portfolioModal10'>client request library</a>, <a data-toggle='modal' href='#portfolioModal7'>content-aware image resizer</a>, <a data-toggle='modal' href='#portfolioModal9'>audio analyzer</a>, <a data-toggle='modal' href='#portfolioModal11'>compiler/transpiler</a>, an early version of my <a data-toggle='modal' href='#portfolioModal5'>OpenGL game engine</a> which I later ported to C++, and many more.",
-        html: "Tramite esperienze lavorative e progetti personali, come ... sviluppo applicazioni web da oltre <b>5 anni</b> avendo spesso a che fare con HTML/JavaScript/CSS e utilizzando diverse librerie e framework come Bootstrap, Node ed Express.",
-        web: "I have significant experience using web libraries such as Durandal, jQuery, and Bootstrap to create web applications for many of my professional and personal projects.",
-        android: "Citare l'app della tesi, l'app di Agile e altre app minori.",
-        wot: "Grazie alla tesi di laurea ho radicato le mie conoscenze nel mondo WoT, partecipando allo sviluppo del framework, utilizzandolo nei progetti e realizzando il binding e i porting in Java di un libreria relativa al protocollo MTQQ, elevando così le capacità del framework tramite l'utilizzo di un nuovo protocollo di comunicazione.",
+        spring: "I have <b>over 2 years</b> of experience with the Spring framework, having used it for the backend of a major project, along with the Spring Tools suite for Eclipse. I have placed particular emphasis on entity management and interaction through JPA queries, as well as asynchronous operations, transactions, and various types of services.",
+        java: "I have over <b>4 years</b> of experience in software development with Java, creating GWT web apps, servlet applications, and various other applications, including <a data-toggle='modal' href='#portfolioModal6'>a desktop app for interactive learning</a> and <a data-toggle='modal' href='#portfolioModal2'>an MQTT protocol binding library</a>. Java is one of the languages I use the most, mainly with the Eclipse IDE.",
+        html: "Through professional experiences and personal projects, such as creating <a data-toggle='modal' href='#portfolioModal4'>a dashboard for reading Wakatime data</a>, I have been developing web applications for <b>over 5 years</b>. I have gained solid expertise in using HTML, JavaScript, and CSS, frequently integrating various libraries and frameworks such as Bootstrap, Node.js, and Express.",
+        web: "With <b>over 4 years</b> of experience, I have created several web apps with a strong focus on UX and UI. During this time, I have developed a variety of projects, including <a data-toggle='modal' href='#portfolioModal5'>a web app for playing interactive stories</a>, <a data-toggle='modal' href='#portfolioModal3'>a dashboard for data collection via Twitter</a>, and other websites and web apps for managing bookings and various utilities.",
+        android: "With <b>2 years</b> of experience in Android development, I have consolidated my skills through the creation of various applications, including <a data-toggle='modal' href='#portfolioModal1'>an app for participation and interaction in crowdsensing campaigns</a>, an app for smart control of livestock through Bluetooth antennas, and an app for efficiently tracking food supplies.",
+        wot: "Thanks to my thesis, I deepened my knowledge in the world of Web of Things (WoT), applying it to my projects. Among these, I developed <a data-toggle='modal' href='#portfolioModal1'>a service for creating and managing crowdsensing campaigns</a> through mobile devices, leveraging the capabilities of the framework and using an extension of the MQTT protocol.",
     },
     projects: {
         subtitle: "Here you can see some of the public projects I've realized.",
         crowdsensing: {
             title: "Mobile Crowdsensing with Web of Things",
-            subtitle: "An architecture and a mobile app to create mobile crowdsensing's campaigns using the Web of Things."
+            subtitle: "Create mobile crowdsensing's campaigns using the Web of Things"
         },
         lamqtt: {
             title: "LA-MQTT JAVA",
-            subtitle: "An extension of the popular MQTT protocol for spatial-aware IoT communications, written in Java."
+            subtitle: "An extension of MQTT for spatial-aware IoT communication, written in Java"
         },
         tweetbook: {
             title: "Tweet Book",
-            subtitle: "Description to be done."
+            subtitle: "A dashboard for data collection, analysis, and geolocation of tweets"
         },
         wakatime: {
             title: "Wakatime Data Reader",
-            subtitle: "Description to be done."
+            subtitle: "A dashboard for clearer productivity data from Wakatime"
         },
         mistery: {
             title: "Mistery at the Museum Web Game",
-            subtitle: "Description to be done."
-        },
-        bikaya: {
-            title: "Bikaya OS",
-            subtitle: "Description to be done."
+            subtitle: "A ecosystem for creating, reviewing, playing, and managing interactive stories"
         },
         algat: {
             title: "AlgaT",
-            subtitle: "An desktop application for interactive learning of Divide and Conquer programming techniques."
-        },
-        nongravitar: {
-            title: "Non Gravitar",
-            subtitle: "An Atari's Gravitar based game."
+            subtitle: "An desktop application for interactive learning of Divide and Conquer programming techniques"
         },
         seemore: "To see more of my projects...",
-        github: "Visit My GitHub"
+        github: "Visit My GitHub",
+        moreInfoSoon: "More detailed project description coming soon!<br> In the meantime, check out some of my other projects.",
+        seeOnGithub: "View this project on GitHub:",
     },
     publications: {
         thesis: {
@@ -134,7 +128,8 @@ const locales = {
     },
     summary: "Summary",
     contact: "Contact Me",
-    contact2: "...or find me on my socials below!"
+    contact2: "...or find me on my socials below!",
+    close: "Close",
   },
 
   // IT
@@ -159,49 +154,43 @@ const locales = {
         subtitle: "Di seguito sono elencate alcune delle mie competenze.",
         summary1: "Programmazione/Linguaggi:",
         summary2: "Strumenti/Temi:",
-        spring: "Conosco a fondo il framework Spring, avendolo utilizzato per più di <b>2 anni</b> per il backend di un importante progetto, assieme alla suite Spring Tools per Eclipse. Ho posto un focus particolare sulla gestione delle entità e l'interazione tramite le query di JPA, ma anche alle operazioni asincrone, transazioni e ogni tipo di servizio.",
-        java: "TODO",
-        html: "Tramite esperienze lavorative e progetti personali, come ... sviluppo applicazioni web da oltre <b>5 anni</b> avendo spesso a che fare con HTML/JavaScript/CSS e utilizzando diverse librerie e framework come Bootstrap, Node ed Express.",
-        web: "TODO",
-        android: "Citare l'app della tesi, l'app di Agile e altre app minori.",
-        wot: "Grazie alla tesi di laurea ho radicato le mie conoscenze nel mondo WoT, partecipando allo sviluppo del framework, utilizzandolo nei progetti e realizzando il binding e i porting in Java di un libreria relativa al protocollo MTQQ, elevando così le capacità del framework tramite l'utilizzo di un nuovo protocollo di comunicazione.",
+        spring: "Conosco a fondo il framework Spring, avendolo utilizzato per <b>più di 2 anni</b> per il backend di un importante progetto, assieme alla suite Spring Tools per Eclipse. Ho posto un focus particolare sulla gestione delle entità e l'interazione tramite le query di JPA, ma anche alle operazioni asincrone, transazioni e ogni tipo di servizio.",
+        java: "Ho <b>oltre 4 anni</b> di esperienza nello sviluppo software in Java, creando applicazioni web con GWT, applicazioni servlet e varie altre applicazioni, inclusa <a data-toggle='modal' href='#portfolioModal6'>un'app desktop per l'apprendimento interattivo</a> e <a data-toggle='modal' href='#portfolioModal2'>una libreria di binding per il protocollo MQTT</a>. Java è uno dei linguaggi che utilizzo di più, principalmente con l'IDE Eclipse.",
+        html: "Attraverso esperienze lavorative e progetti personali, come la realizzazione di <a data-toggle='modal' href='#portfolioModal4'>una dashboard per la lettura dei dati di Wakatime</a>, sviluppo applicazioni web da <b>oltre 5 anni</b>. Ho acquisito una solida competenza nell'uso di HTML, JavaScript e CSS, integrando spesso diverse librerie e framework come Bootstrap, Node.js ed Express.",
+        web: "Con un'esperienza di oltre 4 anni ho creato diverse app web ponendo molta attenzione a UX e UI. Durante questo periodo, ho sviluppato una varietà di progetti, tra cui <a data-toggle='modal' href='#portfolioModal5'>una web app per giocare a storie interattive</a>, <a data-toggle='modal' href='#portfolioModal3'>una dashboard per la raccolta dati tramite Twitter</a> e altri siti web e web app per gestire prenotazioni e altre utilità.",
+        android: "Con <b>2 anni</b> di esperienza nello sviluppo Android, ho consolidato le mie competenze attraverso la creazione di varie applicazioni, tra cui <a data-toggle='modal' href='#portfolioModal1'>un'app per la partecipazione e interazione a campagne di raccolta dati</a>, un'app per il controllo smart di allevamenti tramite antenne Bluetooth e un'app per tenere traccia delle scorte alimentari in modo efficiente.",
+        wot: "Grazie alla mia tesi di laurea, ho approfondito le mie conoscenze nel mondo del Web of Things (WoT), applicandole ai miei progetti. Tra questi, ho sviluppato <a data-toggle='modal' href='#portfolioModal1'>un servizio per la creazione e gestione di campagne di raccolta dati</a> tramite dispositivi mobili sfruttando sulle capacità del framework e utilizzando un'estensione del protocollo MQTT.",
     },
     projects: {
         subtitle: "Qui sono elencati alcuni dei progetti pubblici che ho realizzato.",
         crowdsensing: {
-            title: "Mobile Crowdsensing tramite il Web of Things",
-            subtitle: "Un'architettura e un'applicazione mobile per creare campagne di crowdsensing mobile utilizzando il Web of Things."
+            title: "Mobile Crowdsensing con il Web of Things",
+            subtitle: "Crea campagne di crowdsensing mobile utilizzando il Web of Things."
         },
         lamqtt: {
             title: "LA-MQTT JAVA",
-            subtitle: "Un'estensione del popolare protocollo MQTT per comunicazioni IoT spatial-aware, scritta in Java."
+            subtitle: "Un'estensione di MQTT per comunicazioni IoT spatial-aware, scritta in Java."
         },
         tweetbook: {
             title: "Tweet Book",
-            subtitle: "TODO."
+            subtitle: "Una dashboard per la raccolta, l'analisi e la geolocalizzazione dei tweet"
         },
         wakatime: {
             title: "Wakatime Data Reader",
-            subtitle: "TODO."
+            subtitle: "Una dashboard per leggere i dati di produttività da Wakatime"
         },
         mistery: {
-            title: "Mistery at the Museum Web Game",
-            subtitle: "TODO."
-        },
-        bikaya: {
-            title: "Bikaya OS",
-            subtitle: "TODO."
+            title: "Mistero al Museo",
+            subtitle: "Un ecosistema per la creazione, la revisione, il gioco e la gestione di storie interattive"
         },
         algat: {
             title: "AlgaT",
-            subtitle: "Un'applicazione desktop per l'apprendimento interattivo delle tecniche di programmazione Divide et Impera."
-        },
-        nongravitar: {
-            title: "Non Gravitar",
-            subtitle: "Un gioco basato su Gravitar di Atari."
+            subtitle: "Un'applicazione desktop per l'apprendimento interattivo delle tecniche di programmazione Divide et Impera"
         },
         seemore: "Per vedere altri miei progetti...",
-        github: "Visita il mio GitHub"
+        github: "Visita il mio GitHub",
+        moreInfoSoon: "Una descrizione del progetto più dettagliata sarà disponibile a breve!<br> Nel frattempo, dai un'occhiata ad alcuni dei miei altri progetti.",
+        seeOnGithub: "Vedi il progetto su GitHub:",
     },
     publications: {
         thesis: {
@@ -223,7 +212,7 @@ const locales = {
         machiavelli: {
             time: "2019 - 2020",
             name: "Machiavelli Wear",
-            description: "<b>Co-fondatore</b><br> Brand di abbigliamento che mirava a connubbiare il vintage e lo streetwear.<br> Mi sono occupato di gestire la contabilità, gli ordini e le forniture, lo styling grafico dei prodotti e la realizzazione del sito web.",
+            description: "<b>Co-fondatore</b><br> Brand di abbigliamento che mirava ad unire il vintage e lo streetwear.<br> Mi sono occupato di gestire la contabilità, gli ordini e le forniture, lo styling grafico dei prodotti e la realizzazione del sito web.",
         },
         unibo: {
             time: "2018 - 2023",
@@ -248,7 +237,8 @@ const locales = {
     },
     summary: "Sommario",
     contact: "Contattami",
-    contact2: "...oppure puoi trovarmi sui miei social qui sotto!"
+    contact2: "...oppure puoi trovarmi sui miei social qui sotto!",
+    close: "Chiudi",
   },
 
 };

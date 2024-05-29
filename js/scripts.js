@@ -44,12 +44,12 @@
   $(window).scroll(navbarCollapse);
 
   // Hide navbar when modals trigger
-  /*$('.portfolio-modal').on('show.bs.modal', function(e) {
+  $('.portfolio-modal').on('show.bs.modal', function(e) {
     $(".navbar").addClass("d-none");
   })
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $(".navbar").removeClass("d-none");
-  })*/
+  })
 
 
   // Scroll to top button appear
@@ -61,31 +61,5 @@
       $('.scroll-to-top').fadeOut();
     }
   });
-
-  /*
-  $(document).ready(function () {
-    var targetElement = $(".navbar-collapse.collapse")[0];
-
-    // Create a MutationObserver
-    var observer = new MutationObserver(function (mutations) {
-      mutations.forEach(() => {
-        if (targetElement.classList.contains("show")) {
-          // Disabilita lo scroll quando la navbar è aperta
-          document.body.style.overflow = "hidden";
-        } else {
-          // Riattiva lo scroll quando la navbar è chiusa
-          document.body.style.overflow = "auto";
-        }
-      });
-    });
-
-    // Define the configuration options for the observer
-    var config = { attributes: true, attributeFilter: ["class"] };
-
-    console.log(targetElement);
-    // Start observing the target element
-    observer.observe(targetElement, config);
-  });
-  */
 
 })(jQuery); // End of use strict
